@@ -1,0 +1,2019 @@
+@media only screen and (min-width:320px) and (max-width:480px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        width: 100vw;
+        height: fit-content;
+        background-color:white;
+        font-family: sans-serif;
+    }
+    .header{
+        width: 100vw;
+        height: fit-content;
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: 1;
+        display: block;
+        color: black;
+    }
+    .head{
+        width: fit-content;
+        font-size: 0.8rem;
+        font-family:sans-serif;
+        padding:5px 0px 0px 15px ;
+        text-transform: uppercase;
+    }
+    .nav-btn{
+        width: 10vw;
+        float: right;
+        margin-top: -25px;
+    }
+    .nav-list{
+        text-align: center;
+    }
+    .nav-list li{
+        list-style: none;
+        padding: 10px 0px 10px 0px;
+    }
+    .nav-list li a{
+        color: black;
+        font-size: 1.3rem;
+        text-decoration: none;
+    }
+    .nav{
+        width: 100vw;
+        margin-top: 2.5%;
+        opacity: 0.9;
+        background-color: #ebecf0;
+        display: none;
+    }
+    .nav .active{
+        display: block;
+    }
+    .container{
+        width: 100vw;
+        height: 60vh;
+        display: block;
+        justify-content: space-evenly;
+    }
+    .logo{
+        margin: 225px 0px 0px 0px;
+        /* border: 1px solid blue; */
+    }
+    .logo h1{
+        margin: 0px 0px 0px 20px;
+    }
+    .logo img{
+        width: 70vw;
+        height: fit-content;
+    }
+    .socials{
+        width: fit-content;
+        border-top: 2px solid black;
+        margin:20px 0px 0px 20px;
+    }
+    .socials a{
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: black;
+    }
+    .connect{
+        margin:20px 0px 0px 20px;
+    }
+    .connect input[type="button"]{
+        width: 25vw;
+        height: 6vh;
+        font-weight: bold;
+        background-color: white;
+        border: 2px solid black;
+    }
+    .introduction{
+        display: none;
+    }
+    .introduction p{
+        padding: 20px 0px 0px 0px;
+    }
+    .introduction a{
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+    }
+    /* Additional data to be included */
+    .services{
+        width: 100vw;
+        height: fit-content;
+        display: block;
+       text-align: center;
+    }
+    .jali-web-foundation-header{
+        color: black;
+        font-weight: bold;
+        font-size: 0.8rem;
+        margin-bottom: 5px;
+    }
+    .services-sub-header{
+        color: black;
+        font-size: 1.4rem;
+        margin-bottom: 5px;
+    }
+    .servicesinfo{
+        color: black;
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+    .services-banners{
+        padding: 0px 0px 0px 40px;
+    }
+    .fade{
+        opacity: 0;
+    }
+    .design{
+        width: 80vw;
+        height: 30vh;
+        margin-bottom: 5px;
+        line-height: 1.8rem;
+        padding: 30px 0px 10px 0px;
+        background-color: #ebecf0;
+        /* border: 1px solid black; */
+    }
+    .design-info{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .web-development{
+        width: 80vw;
+        height: 30vh;
+        margin-bottom: 5px;
+        line-height: 1.8rem;
+        padding: 30px 0px 10px 0px;
+        background-color: #ebecf0;
+        /* border: 1px solid black; */
+    }
+    .web-dev-info{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .web-research{
+        width: 80vw;
+        height: 30vh;
+        margin-bottom: 5px;
+        line-height: 1.8rem;
+        padding: 30px 0px 10px 0px;
+        background-color: #ebecf0;
+        /* border: 1px solid black; */
+    }
+    .reseach-info{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .marketing{
+        width: 80vw;
+        height: 30vh;
+        margin-bottom: 5px;
+        line-height: 1.8rem;
+        padding: 30px 0px 10px 0px;
+        background-color: #ebecf0;
+        /* border: 1px solid black; */
+    }
+    .marketing-info{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .experience{
+        padding: 20px 0px 0px 0px;
+        
+    }
+    .no-of-years{
+        font-size: 1.6rem;
+        font-weight: bolder;
+    }
+    .experience-info{
+        font-size: 1.1rem;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+    .no-of-customers{
+        font-size: 1.6rem;
+        font-weight: bolder;
+    }
+    .customers-satisfied{
+        font-size: 1.1rem;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+    .no-of-designs{
+        font-size: 1.6rem;
+        font-weight: bolder;
+    }
+    .design-items{
+        font-size: 1.1rem;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+    .no-of-clients{
+        font-size: 1.6rem;
+        font-weight: bolder;
+    }
+    .clients-served{
+        font-size: 1.1rem;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+    .portfolio{
+        width: 100vw;
+        height: fit-content;
+        text-align: center;
+        background-color: #ebecf0;
+    }
+    .jali-web-foundation-portfolio{
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .portfolio-header{
+        font-size: 1.4rem;
+    }
+    .portfolio-info{
+        font-size: 1rem;
+    }
+    .tableList{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+       
+    }
+    .tableList li{
+        padding:20px 12px 20px 2px;
+        list-style: none;
+    }
+    .tableList li a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 0.8rem;
+        color: black;
+    }
+    .tableList .active a{
+        border-bottom: 1px solid black;
+    }
+    .tablePanel{
+        display: none;
+    }
+    .tablePanel img{
+        width: 80vw;
+        height: fit-content;
+    }
+    .tablePanel.active{
+        display: block;
+    }
+    .projects{
+        width: 100vw;
+        height: fit-content;
+        text-align: center;
+    }
+    .jali-web-foundation-projects{
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .project-header{
+        font-size: 1.4rem;
+    }
+    .project-info{
+        font-size: 1rem;
+    }
+    .project-ngo{
+        padding: 10px 0px 0px 0px;
+        margin: 10px 20px;
+        background-color: #ebecf0;
+    }
+    .project-ngo img{
+        width: 80vw;
+        height: 40vh;
+    }
+    .project-ngo p{
+        padding: 10px 45px 0px 45px;
+        
+        text-align: left;
+    }
+    .ngo-details{
+        font-size: 1.2rem;
+        font-weight: bold;
+        
+    }
+    .ngo-info-link a{
+        font-weight: bold;
+        color: black; /*Update this to other viewports*/
+        text-decoration: none;
+    }
+    .side-project{
+        text-align: left;
+        /* background-color: lightgray; */
+    }
+    .side-project-info{
+        display: flex;
+        padding: 10px 45px 0px 45px;
+        
+    }
+    .side-project-info img{
+        width: 30vw;
+        height: 20vh;
+    }
+    .side-project-detail{
+        display: block;
+        background-color: #ebecf0;
+        padding: 40px 5px 0px 20px;
+    }
+    .contact{
+        width: 100vw;
+        height: fit-content;
+        text-align: center;
+        border-bottom: 1px solid black;
+        
+    }
+    .jali-web-foundation-contact{
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .contact-header{
+        font-size: 1.4rem;
+    }
+    .contact-info{
+        font-size: 1rem;
+    }
+    /* kindly merge the following details on@media for the other viewports */
+    .contact-details{
+        width: 90vw;
+        height: fit-content;
+        padding: 0px 0px 0px 20px;/* this was the padding to contact details */
+        display: block;
+        justify-content: space-evenly;
+    }
+    .contact-details p{
+        width: 100;
+        height: 6.8vh;
+        padding: 10px 0px 0px 0px;
+        font-size: 1.3rem;
+    }
+    .contact-details p{ 
+        background-color: #ebecf0;
+    }
+    .contact-details img{
+        width: 5vw;
+        padding: 0px 10px 0px 0px;
+        height:fit-content;
+    }
+    .contact-details a{
+        text-decoration: none;
+        color: black;
+    }
+    .footer{
+        width: 100vw;
+        height: 8vh;
+        padding: 20px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        width: 100vw;
+        height: fit-content;
+        background-color:white;
+        font-family:sans-serif;
+    }
+    .header{
+        width: 100vw;
+        height: fit-content;
+        top: 0;
+        left: 0;
+        /* position: absolute;
+        z-index: 1; */
+        display: flex;
+        justify-content: space-evenly;
+        color: black;
+    }
+    .head{
+        width: fit-content;
+        font-size: 1.3rem;
+        padding:5px 20px 0px 15px;
+        font-family:sans-serif;
+        text-transform: uppercase;
+    }
+    .nav-btn{
+        width: 10vw;
+        float: right;
+        margin-top: -25px;
+        display: none;
+    }
+    .nav-list{
+        display: flex;
+        justify-content: center;
+    }
+    .nav-list li{
+        list-style: none;
+        padding: 15px 10px 0px 10px;
+    }
+    .nav-list li a{
+        color: black;
+        font-size: 1.3rem;
+        text-decoration: none;
+    }
+    .nav{
+        width: 100vw;
+         margin-top: 2.5%;
+        /* opacity: 0.9;
+        background-color: black; */ 
+        display: block;
+    }
+    .nav .active{
+        display: none;
+    }
+    /* //Container */
+    .container{
+        width: 100vw;
+        height: fit-content;
+    }
+    .logo{
+        margin: 225px 0px 0px 0px;
+        /* border: 1px solid blue; */
+    }
+    .logo h1{
+        margin: 0px 0px 0px 20px;
+    }
+    .logo img{
+        width: 70vw;
+        height: fit-content;
+    }
+    .socials{
+        width: fit-content;
+        border-top: 2px solid black;
+        margin:20px 0px 0px 20px;
+    }
+    .socials a{
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: black;
+    }
+    .connect{
+        margin:20px 0px 0px 20px;
+    }
+    .connect input[type="button"]{
+        width: 25vw;
+        height: 6vh;
+        font-weight: bold;
+        background-color: white;
+        border: 2px solid black;
+    }
+    .introduction{
+        display: none;
+    }
+    .introduction p{
+        padding: 20px 0px 0px 0px;
+    }
+    .introduction a{
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+    }
+    /* SERVICES */
+    .services{
+        width: 100vw;
+        height: fit-content;
+        display: block;
+       text-align: center;
+    }
+    .jali-web-foundation-header{
+        color: black;
+        font-weight: bold;
+        font-size: 0.8rem;
+        margin-bottom: 5px;
+    }
+    .services-sub-header{
+        color: black;
+        font-size: 1.4rem;
+        margin-bottom: 5px;
+    }
+    .servicesinfo{
+        color: black;
+        font-size: 1rem;
+        margin: auto 30px;
+    }
+    .services-banners{
+        display: block;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 0px 0px 0px 150px;
+    }
+    .fade{
+        opacity: 0;
+    }
+    .design{
+        width: 50vw;
+        height: 30vh;
+        margin-bottom: 5px;
+        line-height: 1.8rem;
+        padding: 30px 0px 10px 0px;
+        background-color: lightgray
+    }
+    .design-info{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .web-development{
+        width: 50vw;
+        height: 30vh;
+        margin-bottom: 5px;
+        line-height: 1.8rem;
+        padding: 30px 0px 10px 0px;
+        background-color: lightgray
+    }
+    .web-dev-info{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .web-research{
+        width: 50vw;
+        height: 30vh;
+        margin-bottom: 5px;
+        line-height: 1.8rem;
+        padding: 30px 0px 10px 0px;
+        background-color: lightgray
+    }
+    .reseach-info{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .marketing{
+        width: 50vw;
+        height: 30vh;
+        margin-bottom: 5px;
+        line-height: 1.8rem;
+        padding: 30px 0px 10px 0px;
+        background-color: lightgray
+    }
+    .marketing-info{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .experience{
+        padding: 20px 0px 0px 0px;
+        
+    }
+    .no-of-years{
+        font-size: 1.6rem;
+        font-weight: bolder;
+    }
+    .experience-info{
+        font-size: 1.1rem;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+    .no-of-customers{
+        font-size: 1.6rem;
+        font-weight: bolder;
+    }
+    .customers-satisfied{
+        font-size: 1.1rem;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+    .no-of-designs{
+        font-size: 1.6rem;
+        font-weight: bolder;
+    }
+    .design-items{
+        font-size: 1.1rem;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+    .no-of-clients{
+        font-size: 1.6rem;
+        font-weight: bolder;
+    }
+    .clients-served{
+        font-size: 1.1rem;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+    /* //PORTFOLIO */
+    .portfolio{
+        width: 100vw;
+        height: fit-content;
+        text-align: center;
+        background-color: lightgrey;
+    }
+    .jali-web-foundation-portfolio{
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .portfolio-header{
+        font-size: 1.4rem;
+    }
+    .portfolio-info{
+        font-size: 1rem;
+        margin: auto 30px;
+    }
+    .tableList{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+       
+    }
+    .tableList li{
+        padding:20px 12px 20px 2px;
+        list-style: none;
+    }
+    .tableList li a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1rem;
+        color: black;
+    }
+    .tableList .active a{
+        border-bottom: 1px solid black;
+    }
+    .tablePanel{
+        display: none;
+    }
+    .tablePanel img{
+        width: 80vw;
+        height: 40vh;
+    }
+    .tablePanel.active{
+        display: block;
+    }
+    /* //PROJECTS */
+    .projects{
+        width: 100vw;
+        height: fit-content;
+        text-align: center;
+    }
+    .jali-web-foundation-projects{
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .project-header{
+        font-size: 1.4rem;
+    }
+    .project-info{
+        font-size: 1rem;
+        margin: auto 30px;
+    }
+    .project-details{
+        background-color: lightgrey;
+    }
+    .project-ngo {
+        padding-top: 10px;
+    }
+    .project-ngo img{
+        width: 80vw;
+        height: 40vh;
+    }
+    .project-ngo p{
+        padding: 10px 60px 0px 90px;
+        text-align: left;
+    }
+    .ngo-details{
+        font-size: 1.2rem;
+    }
+    .ngo-info-link a{
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+    }
+    .side-project{
+        text-align: left;
+    }
+    .side-project-info{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 80px 20px 80px;
+    }
+    .side-project-info img{
+        width: 30vw;
+        height: 20vh;
+    }
+    .side-project-detail{
+        display: block;
+        padding: 0px 0px 0px 0px;
+    }
+    /* //CONTACTS */
+    .contact{
+        width: 100vw;
+        height: fit-content;
+        text-align: center;
+    }
+    .jali-web-foundation-contact{
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .contact-header{
+        font-size: 1.4rem;
+    }
+    .contact-info{
+        font-size: 1rem;
+        margin: auto 30px;
+    }
+    .contact-details{
+        width: 90vw;
+        height: 50vh;
+        padding: 20px 0px 0px 20px;/* this was the padding to contact details */
+        display: block;
+        justify-content: space-evenly;
+    }
+    .contact-details p{
+        width: 100;
+        height: 6.8vh;
+        padding: 10px 0px 0px 0px;
+        font-size: 1.3rem;
+    }
+    .contact-details p{ 
+        background-color: lightgrey;
+    }
+    .contact-details img{
+        width: 3vw;
+        padding: 0px 10px 0px 0px;
+        height:fit-content;
+    }
+    .contact-details a{
+        text-decoration: none;
+        color: black;
+    }
+    .footer{
+        width: 100vw;
+        height: 8vh;
+        padding: 20px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        border-top: 2px solid black;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        width: 100vw;
+        height: fit-content;
+        background-color:white;
+        font-family: sans-serif;
+    }
+    .header{
+        width: 100vw;
+        height: fit-content;
+        top: 0;
+        left: 0;
+        /* position: absolute;
+        z-index: 1; */
+        display: flex;
+        justify-content: space-evenly;
+        color: black;
+    }
+    .head{
+        width: fit-content;
+        font-size: 1.2rem;
+        padding:10px 20px 0px 15px;
+        font-family:sans-serif;
+        text-transform: uppercase;
+    }
+    .nav-btn{
+        width: 10vw;
+        float: right;
+        margin-top: -25px;
+        display: none;
+    }
+    .nav-list{
+        display: flex;
+        justify-content: center;
+    }
+    .nav-list li{
+        list-style: none;
+        padding: 15px 10px 0px 10px;
+    }
+    .nav-list li a{
+        color: black;
+        font-size: 1.3rem;
+        text-decoration: none;
+    }
+    .nav{
+        width: 100vw;
+         margin-top: 1.5%;
+        /* opacity: 0.9;
+        background-color: black; */ 
+        display: block;
+    }
+    .nav .active{
+        display: none;
+    }
+    /* //Container */
+    .container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: space-evenly
+    }
+    .logo{
+        margin: 200px 50px 0px 0px;
+    }
+    .logo img{
+        width: 30vw;
+        height:fit-content;
+        
+    }
+    .socials{
+        width: fit-content;
+        border-top: 2px solid black;
+        margin:15px 0px 15px 0px;
+    }
+    .socials a{
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: black;
+    }
+    .connect{
+        margin:10px 0px 0px 0px;
+    }
+    .connect input[type="button"]{
+        width: 12.5vw;
+        height: 6vh;
+        font-weight: bold;
+        background-color: white;
+        border: 2px solid black;
+    }
+    .introduction{
+        width: 30vw;
+        height: 50vh;
+        margin: 130px 50px 0px 0px;
+    }
+    .introduction p{
+        padding: 10px 30px 20px 0px;
+    }
+    .introduction a{
+        text-decoration: none;
+        color:black;
+        font-weight: bold;
+    }
+    /* SERVICES */
+    .services{
+        width: 100vw;
+        height: fit-content;
+        display: block;
+       text-align: center;
+    }
+    .jali-web-foundation-header{
+        color: black;
+        font-weight: bold;
+        font-size: 0.8rem;
+        margin-bottom: 5px;
+    }
+    .services-sub-header{
+        color: black;
+        font-size: 1.4rem;
+        margin-bottom: 5px;
+    }
+    .servicesinfo{
+        color: black;
+        font-size: 1rem;
+        padding: 0px 130px 0px 130px;
+        margin-bottom: 5px;
+    }
+    .fade{
+        opacity: 0;
+    }
+    .services-banners{
+        display: flex;
+        flex: row;
+        justify-content: space-evenly;
+        padding: 0px 0px 0px 0px;
+    }
+    .design{
+        width: 20vw;
+        height: 30vh;
+        margin-bottom: 5px;
+        line-height: 1.8rem;
+        padding: 30px 0px 10px 0px;
+        background-color: lightgray;
+    }
+    .design-info{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .web-development{
+        width: 20vw;
+        height: 30vh;
+        margin-bottom: 5px;
+        line-height: 1.8rem;
+        padding: 30px 0px 10px 0px;
+        background-color: lightgray;
+    }
+    .web-dev-info{
+        padding-top: 20px;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .web-research{
+        width: 20vw;
+        height: 30vh;
+        margin-bottom: 5px;
+        line-height: 1.8rem;
+        padding: 30px 0px 10px 0px;
+        background-color: lightgray;
+    }
+    .reseach-info{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .marketing{
+        width: 20vw;
+        height: 30vh;
+        margin-bottom: 5px;
+        line-height: 1.8rem;
+        padding: 30px 0px 10px 0px;
+        background-color: lightgray;
+    }
+    .marketing-info{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .experience{
+        display: grid;
+        width: 100vw;
+        height: fit-content;
+        /* flex-direction: row; */
+        /* grid: repeat(2, 1fr) /repeat(2, 200px); */
+        /* justify-content:space-between; */
+        padding: 20px 0px 20px 0px;
+        /* flex-wrap: wrap; */
+        /* row-gap: 10px; */
+
+        column-gap: 10px;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(2, auto);
+        /* border: 1px solid black; */
+        
+    }
+    /* .experience p{
+         border: 1px solid black; 
+    } */
+     .no-of-years{
+        font-size: 1.6rem;
+        font-weight: bolder;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        padding-left:50px; 
+    }
+    .experience-info{
+        font-size: 1.1rem;
+        font-weight: lighter;
+        padding-left:50px; 
+        /* margin-bottom: 20px; */
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .no-of-customers{
+        font-size: 1.6rem;
+        font-weight: bolder;
+        padding-right:50px; 
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        
+    }
+    .customers-satisfied{
+        font-size: 1.1rem;
+        font-weight: lighter;
+        padding-right:50px; 
+        /* margin-bottom: 20px; */
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+       
+    }
+    .no-of-designs{
+        font-size: 1.6rem;
+        font-weight: bolder;
+        padding-right:50px; 
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    .design-items{
+        font-size: 1.1rem;
+        font-weight: lighter;
+        padding-right:50px; 
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    .no-of-clients{
+        font-size: 1.6rem;
+        font-weight: bolder;
+        padding-right:50px; 
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 4;
+        grid-column-end: 5;
+    }
+    .clients-served{
+        font-size: 1.1rem;
+        font-weight: lighter;
+        padding-right:50px; 
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 4;
+        grid-column-end: 5;
+       
+    }
+    /* //PORTFOLIO */
+    .portfolio{
+        width: 100vw;
+        height: fit-content;
+        text-align: center;
+        background-color: lightgray;
+    }
+    .jali-web-foundation-portfolio{
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .portfolio-header{
+        font-size: 1.4rem;
+    }
+    .portfolio-info{
+        font-size: 1rem;
+        padding: 0px 130px 0px 130px;
+    }
+    .tableList{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+       
+    }
+    .tableList li{
+        padding:20px 12px 20px 2px;
+        list-style: none;
+    }
+    .tableList li a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 0.6rem;
+        color: black;
+    }
+    .tableList .active a{
+        border-bottom: 1px solid black;
+    }
+    .tablePanel{
+        display: none;
+    }
+    .tablePanel img{
+        width: 40vw;
+        height: fit-content;
+    }
+    .tablePanel.active{
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    /* //PROJECTS */
+    .projects{
+        width: 100vw;
+        height: fit-content;
+        text-align: center;
+    }
+    .jali-web-foundation-projects{
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .project-header{
+        font-size: 1.4rem;
+    }
+    .project-info{
+        font-size: 1rem;
+        padding: 0px 130px 0px 130px;
+    }
+    .project-details{
+        display: flex;
+        justify-content: center;
+        background-color: lightgray;
+    }
+    .project-ngo{
+        padding: 10px 10px 0px 0px;
+    }
+    .project-ngo img{
+        width: 30vw;
+        height: fit-content;
+    }
+    .project-ngo p{
+        padding: 10px 0px 0px 10px;
+        text-align: left;
+    }
+    .ngo-details{
+        font-size: 1.2rem;
+    }
+    .ngo-info-link a{
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+    }
+    .side-project{
+        text-align: left;
+    }
+    .side-project-info{
+        display: block;
+        padding: 10px 5px 0px 5px;
+    }
+    .side-project-info img{
+        width: 30vw;
+        height: fit-content;
+    }
+    .side-project-detail{
+        display: block;
+        padding: 20px 0px 0px 10px;
+    }
+    /* //CONTACTS */
+    .contact{
+        width: 100vw;
+        height: fit-content;
+        text-align: center;
+    }
+    .jali-web-foundation-contact{
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    .contact-header{
+        font-size: 1.6rem;
+    }
+    .contact-info{
+        font-size: 1rem;
+        margin: auto 60px;
+    }
+    .contact-details{
+        width: 100vw;
+        height: fit-content;
+        padding: 20px 0px 50px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+        background-color: lightgray;
+    }
+    .contact-details p{
+        padding: 10px 0px 0px 0px;
+        /* background-color: lightgray; */
+    }
+    .contact-details a{
+        color:black;
+        text-decoration: none;
+    }
+    .contact-details img{
+        width: 1.2vw;
+        height:fit-content;
+        padding: 0px 10px 0px 0px;
+    }
+    .footer{
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        border-top: 2px solid black;
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        width: 100vw;
+        height: fit-content;
+        background-color:white;
+        font-family: sans-serif;
+    }
+    .header{
+        width: 100vw;
+        height: fit-content;
+        top: 0;
+        left: 0;
+        /* position: absolute;
+        z-index: 1; */
+        display: flex;
+        justify-content: space-evenly;
+        color: blue;
+    }
+    .head{
+        width: fit-content;
+        font-size: 1.6rem;
+        padding:0px 20px 0px 10px;
+        font-family:serif;
+        text-transform: uppercase;
+    }
+    .nav-btn{
+        width: 10vw;
+        float: right;
+        margin-top: -25px;
+        display: none;
+    }
+    .nav-list{
+        display: flex;
+        justify-content: center;
+    }
+    .nav-list li{
+        list-style: none;
+        padding: 7px 10px 0px 10px;
+    }
+    .nav-list li a{
+        color: black;
+        font-size: 1.3rem;
+        text-decoration: none;
+    }
+    .nav{
+        width: 100vw;
+         margin-top: 1.5%;
+        /* opacity: 0.9;
+        background-color: black; */ 
+        display: block;
+    }
+    .nav .active{
+        display: none;
+    }
+    /* //Container */
+    .container{
+        width: 100vw;
+        height: 100vh;
+    }
+    .logo img{
+        width: 25vw;
+        height:fit-content;
+        
+    }
+    .socials{
+        width: fit-content;
+        border-top: 2px solid black;
+        margin:0px 0px 0px 20px;
+    }
+    .socials a{
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+    .connect{
+        margin:10px 0px 0px 20px;
+    }
+    .connect input[type="button"]{
+        width: 12.5vw;
+        height: 6vh;
+        font-weight: bold;
+        background-color: white;
+        border: 2px solid black;
+    }
+    /* SERVICES */
+    .services{
+        width: 100vw;
+        height: fit-content;
+        display: block;
+       text-align: center;
+    }
+    .jali-web-foundation-header{
+        color: black;
+        font-weight: bold;
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+    }
+    .services-sub-header{
+        color: black;
+        font-size: 1.6rem;
+        margin-bottom: 5px;
+    }
+    .servicesinfo{
+        color: black;
+        font-size: 1rem;
+        padding: 0px 230px 0px 230px;
+        margin-bottom: 5px;
+    }
+    .services-banners{
+        display: flex;
+        flex: row;
+        justify-content: space-evenly;
+        padding: 0px 0px 0px 0px;
+    }
+    .fade{
+        opacity: 0;
+    }
+    .design{
+        width: 20vw;
+        height: 30vh;
+        margin-bottom: 5px;
+        line-height: 1.8rem;
+        padding: 30px 0px 10px 0px;
+        background-color: lightgray;
+    }
+    .design-info{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .web-development{
+        width: 20vw;
+        height: 30vh;
+        margin-bottom: 5px;
+        line-height: 1.8rem;
+        padding: 30px 0px 10px 0px;
+        background-color: lightgray;
+    }
+    .web-dev-info{
+        padding-top: 25px;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .web-research{
+        width: 20vw;
+        height: 30vh;
+        margin-bottom: 5px;
+        line-height: 1.8rem;
+        padding: 30px 0px 10px 0px;
+        background-color: lightgray;
+    }
+    .reseach-info{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .marketing{
+        width: 20vw;
+        height: 30vh;
+        margin-bottom: 5px;
+        line-height: 1.8rem;
+        padding: 30px 0px 10px 0px;
+        background-color: lightgray;
+    }
+    .marketing-info{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .experience{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        padding: 20px 0px 0px 0px;
+        
+    }
+    .no-of-years{
+        font-size: 1.6rem;
+        font-weight: bolder;
+        
+    }
+    .experience-info{
+        font-size: 1.1rem;
+        font-weight: lighter;
+        padding-right:50px ;
+        margin-bottom: 20px;
+    }
+    .no-of-customers{
+        font-size: 1.6rem;
+        font-weight: bolder;
+    }
+    .customers-satisfied{
+        font-size: 1.1rem;
+        font-weight: lighter;
+        padding-right:80px ;
+        margin-bottom: 20px;
+    }
+    .no-of-designs{
+        font-size: 1.6rem;
+        font-weight: bolder;
+    }
+    .design-items{
+        font-size: 1.1rem;
+        font-weight: lighter;
+        padding-right:80px ;
+        margin-bottom: 20px;
+    }
+    .no-of-clients{
+        font-size: 1.6rem;
+        font-weight: bolder;
+    }
+    .clients-served{
+        font-size: 1.1rem;
+        font-weight: lighter;
+        padding-right:10px ;
+        margin-bottom: 20px;
+    }
+    /* //PORTFOLIO */
+    .portfolio{
+        width: 100vw;
+        height: fit-content;
+        text-align: center;
+        background-color: lightgray;
+    }
+    .jali-web-foundation-portfolio{
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    .portfolio-header{
+        font-size: 1.6rem;
+    }
+    .portfolio-info{
+        font-size: 1rem;
+        padding: 0px 230px 0px 230px;
+    }
+    .tableList{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+       
+    }
+    .tableList li{
+        padding:20px 12px 20px 2px;
+        list-style: none;
+    }
+    .tableList li a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 0.9rem;
+        color: black;
+    }
+    .tableList .active a{
+        border-bottom: 1px solid black;
+    }
+    .tablePanel{
+        display: none;
+    }
+    .tablePanel img{
+        /* width changed frm 50vw */
+        width: 32vw; 
+        height: fit-content;
+    }
+    .tablePanel.active{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        /* justify content changed to space evenly frm centr */
+        justify-content: space-evenly;
+    }
+    /* //PROJECTS */
+    .projects{
+        width: 100vw;
+        height: fit-content;
+        text-align: center;
+    }
+    .jali-web-foundation-projects{
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    .project-header{
+        font-size: 1.6rem;
+    }
+    .project-info{
+        font-size: 1rem;
+        padding: 0px 230px 0px 230px;
+    }
+    .project-details{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: lightgray;
+    }
+    .project-ngo{
+        padding: 10px 10px 0px 0px;
+    }
+    .project-ngo img{
+        width: 30vw;
+        height: fit-content;
+    }
+    .project-ngo p{
+        padding: 10px 0px 0px 20px;
+        text-align: left;
+    }
+    .ngo-details{
+        font-size: 1.2rem;
+    }
+    .ngo-info-link a{
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .side-project{
+        text-align: left;
+    }
+    .side-project-info{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 10px 5px 0px 5px;
+    }
+    .side-project-info img{
+        width: 30vw;
+        height: fit-content;
+    }
+    .side-project-detail{
+        display: block;
+        /* font-size: 01rem; */
+        padding: 10px 0px 0px 5px;
+    }
+    /* //CONTACTS */
+    .contact{
+        width: 100vw;
+        height: fit-content;
+        text-align: center;
+    }
+    .jali-web-foundation-contact{
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    .contact-header{
+        font-size: 1.6rem;
+    }
+    .contact-info{
+        font-size: 1rem;
+        padding: 0px 230px 0px 230px;
+    }
+    .contact-details{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .contact-details img{
+        width: 1.5vw;
+        height:fit-content;
+    }
+    .footer{
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        border-top:2px solid black;
+    }
+}
+@media only screen and (min-width:1201px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        width: 100vw;
+        height: fit-content;
+        overflow-x: hidden;
+        background-color:white;
+        font-family: sans-serif;
+    }
+    .header{
+        width: 100vw;
+        height: fit-content;
+        top: 0;
+        left: 0;
+        /* position: absolute;
+        z-index: 1; */
+        display: flex;
+        justify-content: space-evenly;
+        color: black;
+        
+    }
+    .head{
+        width: fit-content;
+        font-size: 1.6rem;
+        padding:0px 20px 0px 10px;
+        font-family: sans-serif;
+        text-transform: uppercase;
+    }
+    .nav-btn{
+        width: 10vw;
+        float: right;
+        margin-top: -25px;
+        display: none;
+    }
+    .nav-list{
+        display: flex;
+        justify-content: center;
+    }
+    .nav-list li{
+        list-style: none;
+        padding: 7px 10px 0px 10px;
+    }
+    .nav-list li a{
+        color: black;
+        font-size: 1.3rem;
+        text-decoration: none;
+    }
+    .nav{
+        width: 100vw;
+         margin-top: 1.5%;
+        /* opacity: 0.9;
+        background-color: black; */ 
+        display: block;
+    }
+    .nav .active{
+        display: none;
+    }
+    /* //Container */
+    .container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: space-evenly
+    }
+    .logo{
+        margin: 200px 50px 0px 0px;
+    }
+    .logo img{
+        width: 30vw;
+        height:fit-content;
+        
+    }
+    .socials{
+        width: fit-content;
+        border-top: 2px solid black;
+        margin:15px 0px 15px 0px;
+    }
+    .socials a{
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: black;
+    }
+    .connect{
+        margin:10px 0px 0px 0px;
+    }
+    .connect input[type="button"]{
+        width: 12.5vw;
+        height: 6vh;
+        font-weight: bold;
+        background-color: white;
+        border: 2px solid black;
+    }
+    .introduction{
+        width: 30vw;
+        height: 50vh;
+        margin: 130px 50px 0px 0px;
+    }
+    .introduction p{
+        padding: 10px 30px 20px 0px;
+    }
+    .introduction a{
+        text-decoration: none;
+        color:black;
+        font-weight: bold;
+    }
+    /* SERVICES */
+    .services{
+        width: 100vw;
+        height: fit-content;
+        display: block;
+       text-align: center;
+    }
+    .jali-web-foundation-header{
+        color: black;
+        font-weight: bold;
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+    }
+    .services-sub-header{
+        color: black;
+        font-size: 1.6rem;
+        margin-bottom: 5px;
+    }
+    .servicesinfo{
+        color: black;
+        font-size: 1rem;
+        padding: 0px 360px 0px 360px;
+        margin-bottom: 5px;
+    }
+    .services-banners{
+        display: flex;
+        flex: row;
+        justify-content: space-evenly;
+        padding: 0px 0px 0px 0px;
+    }
+    .fade{
+        opacity: 0;
+    }
+    .design{
+        width: 20vw;
+        height: 30vh;
+        margin-bottom: 5px;
+        line-height: 1.8rem;
+        padding: 30px 0px 10px 0px;
+        background-color: #ebecf0;
+        /* border: 1px solid black; */
+    }
+    .design-info{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .web-development{
+        width: 20vw;
+        height: 30vh;
+        margin-bottom: 5px;
+        line-height: 1.8rem;
+        padding: 30px 0px 10px 0px;
+        background-color: #ebecf0;
+        /* border: 1px solid black; */
+    }
+    .web-dev-info{
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding-top: 30px;
+    }
+    .web-research{
+        width: 20vw;
+        height: 30vh;
+        margin-bottom: 5px;
+        line-height: 1.8rem;
+        padding: 30px 0px 10px 0px;
+        background-color: #ebecf0;
+        /* border: 1px solid black; */
+    }
+    .reseach-info{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .marketing{
+        width: 20vw;
+        height: 30vh;
+        margin-bottom: 5px;
+        line-height: 1.8rem;
+        padding: 30px 0px 10px 0px;
+        background-color: #ebecf0;
+        /* border: 1px solid black; */
+    }
+    .marketing-info{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .experience{
+        display: grid;
+        width: 100vw;
+        height: fit-content;
+        /* flex-direction: row; */
+        /* grid: repeat(2, 1fr) /repeat(2, 200px); */
+        /* justify-content:space-between; */
+        padding: 20px 0px 20px 0px;
+        /* flex-wrap: wrap; */
+        /* row-gap: 10px; */
+
+        column-gap: 10px;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(2, auto);
+        /* border: 1px solid black; */
+        
+    }
+    /* .experience p{
+         border: 1px solid black; 
+    } */
+     .no-of-years{
+        font-size: 1.6rem;
+        font-weight: bolder;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        padding-left:50px; 
+    }
+    .experience-info{
+        font-size: 1.1rem;
+        font-weight: lighter;
+        padding-left:50px; 
+        /* margin-bottom: 20px; */
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .no-of-customers{
+        font-size: 1.6rem;
+        font-weight: bolder;
+        padding-right:50px; 
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        
+    }
+    .customers-satisfied{
+        font-size: 1.1rem;
+        font-weight: lighter;
+        padding-right:50px; 
+        /* margin-bottom: 20px; */
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+       
+    }
+    .no-of-designs{
+        font-size: 1.6rem;
+        font-weight: bolder;
+        padding-right:50px; 
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    .design-items{
+        font-size: 1.1rem;
+        font-weight: lighter;
+        padding-right:50px; 
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    .no-of-clients{
+        font-size: 1.6rem;
+        font-weight: bolder;
+        padding-right:50px; 
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 4;
+        grid-column-end: 5;
+    }
+    .clients-served{
+        font-size: 1.1rem;
+        font-weight: lighter;
+        padding-right:50px; 
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 4;
+        grid-column-end: 5;
+       
+    }
+    /* //PORTFOLIO */
+    .portfolio{
+        width: 100vw;
+        height: fit-content;
+        text-align: center;
+        background-color: #ebecf0;
+    }
+    .jali-web-foundation-portfolio{
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    .portfolio-header{
+        font-size: 1.6rem;
+    }
+    .portfolio-info{
+        font-size: 1rem;
+        padding: 0px 360px 0px 360px;
+    }
+    .tableList{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+       
+    }
+    .tableList li{
+        padding:20px 12px 20px 2px;
+        list-style: none;
+    }
+    .tableList li a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 0.9rem;
+        color: black;
+    }
+    .tableList .active a{
+        border-bottom: 1px solid black;
+    }
+    .tablePanel{
+        display: none;
+    }
+    .tablePanel img{
+        /* width changed frm 50vw */
+        width: 29vw; 
+        height: fit-content;
+    }
+    .tablePanel.active{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* justify content changed to space evenly frm centr */
+        justify-content: space-evenly;
+    }
+    /* //PROJECTS */
+    .projects{
+        width: 100vw;
+        height: fit-content;
+        text-align: center;
+    }
+    .jali-web-foundation-projects{
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    .project-header{
+        font-size: 1.6rem;
+    }
+    .project-info{
+        font-size: 1rem;
+        padding: 0px 360px 0px 360px;
+    }
+    .project-details{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .project-ngo{
+        padding: 10px 10px 0px 0px;
+        background-color: #ebecf0;
+    }
+    .project-ngo img{
+        width: 30vw;
+        height: fit-content;
+    }
+    .project-ngo p{
+        padding: 10px 10px 0px 25px;
+        text-align: left;
+    }
+    .ngo-details{
+        font-size: 1.8rem;
+    }
+    .ngo-info{
+        font-size: 1.2rem;
+    }
+    .ngo-info-link a{
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .side-project{
+        text-align: left;
+        background-color: #ebecf0;
+    }
+    .side-project-info{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 10px 5px 0px 5px;
+    }
+    .side-project-info img{
+        width: 30vw;
+        height: fit-content;
+    }
+    .side-project-detail{
+        display: block;
+        /* font-size: 01rem; */
+        padding: 10px 0px 0px 5px;
+    }
+    /* //CONTACTS */
+    .contact{
+        width: 100vw;
+        height: fit-content;
+        text-align: center;
+        border-bottom: 1px solid black;
+    }
+    .jali-web-foundation-contact{
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    .contact-header{
+        font-size: 1.6rem;
+    }
+    .contact-info{
+        font-size: 1rem;
+        padding: 0px 360px 0px 360px;
+    }
+    .contact-details{
+        width: 100vw;
+        height: fit-content;
+        padding: 20px 0px 50px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: #ebecf0;
+    }
+    .contact-details p{
+        padding: 10px 50px 5px 10px;
+        /* background-color: lightgray; */
+    }
+    .contact-details a{
+        color:black;
+        text-decoration: none;
+    }
+    .contact-details img{
+        width: 1.2vw;
+        height:fit-content;
+        padding: 0px 10px 0px 0px;
+    }
+    .footer{
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+    }
+}
